@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestraion Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="formDiv" >
+        <b class="reg " style="float: left;">Register - Create Account </b>
+        <br><br>
+        <div style="background-color: aqua;border: dashed; padding: 5px; "> Field marked with * ar compulsory fields </div>
+        <br>
+        <center>
+        <form method="get">
+            <table >
+                <tbody >
+                    <tr>
+                        <td class="form"> <label for="fname" >Your Name </label></td>
+                        <td> <input type="text" name="fname"> </td>
+                    </tr>
+                    <tr>
+                        <td class="form"> <label for="emailId" class="form">E-mail ID </label></td>
+                        <td> <input style="width: 300px;" type="text" name="emailId"> </td>
+                    </tr>
+                    <tr>
+                        <td class="form"> <label for="email" class="form">Alternative Email ID </label></td>
+                        <td> <input style="width: 300px;" type="email" name="email"> </td>
+                    </tr>
+                    <tr>
+                        <td class="form"> <label for="Phone" class="form"> Your Phone</label></td>
+                        <td>
+                            <div> Country Code - City Code - Phone Number</div>
+                            <input name="Phone" type="number" style="width:40px "> -
+                            <input name="Phone" type="tel" style="width:60px"> -
+                            <input name="Phone" type="number" style="width:100px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form">
+                            <label for="Mobile" class="form"> Mobile Phone</label>
+                        </td>
+                        <td> <input name="Mobile" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td class="form"> <label for="textArea" class="form"> Your Postal Address</label> </td>
+                        <td> <textarea name="message" rows="10" cols="30">
+
+                            </textarea> </td>
+                    </tr>
+                    <tr>
+                        <td class="form">
+                            <label class="form" for="Country"> Country</label>
+                        <td> <select id="Country" >
+                            <option >--------select One---------</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Alexandia">Alexandia</option>
+                                <option value="Cairo">Cairo</option>
+                                <option value="USA">Usa</option>
+                            </select> </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form"><label for="Password" class="form"> Password</label></td>
+                        <td> <input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td class="form">
+                            <label for="confirm" > Re-Enter Password</label>
+                            </td> 
+                          <td> <input type="password" name="confirm">
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <br>
+           <center > <input style="display:inline ;" type="checkbox"  > <span>I accept the <a href=""> Terms of Use</a></span>
+        </center> <br>
+           
+           <center><input style="display: inline;" type="submit" value="continue>>"> 
+            <button type="reset">reset</button> </center>
+        </form> </center>
+    </div>
+    <br>
+    <footer style="text-align: center; color: gray;"> Copyright 2021 by Noha Salah &reg; . All Rights Reserved.
+    </footer>
+</body>
+
+</html>
